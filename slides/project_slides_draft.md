@@ -28,7 +28,7 @@ This is slide-ready wording for the heading-direction replication project. Repla
 
 ### Task
 
-Participants completed a rotation task in virtual reality. They were guided through a turn and then had to turn back toward a remembered target heading. In feedback trials, they briefly saw the virtual room for 300 ms during the return turn; the visual feedback could be offset from the heading estimated from their body-based movement. The researchers measured participants’ final turning error and, in the dataset, confidence ratings.
+Participants completed a rotation task in virtual reality. They were guided through an initial turn while viewing the room, then had to turn back toward the remembered starting heading. In feedback trials, they briefly saw the room for 300 ms during the return turn; the visual feedback was consistent with the true heading on 70% of trials (drawn from a Gaussian with a 30° standard deviation) and misleading on 30% (drawn uniformly from −180° to +180°). Participants reported their final heading and confidence.
 
 ### Models and comparison
 
@@ -43,9 +43,9 @@ The authors fit the models to each participant’s trial-level responses and com
 
 ### Main result and figure
 
-**Main result:** The Hybrid model was the best-fitting model for 28 of the 30 participants. The authors interpret this as evidence that people tend to combine visual and body-based cues when the two estimates are close, but allow the cues to compete when they differ substantially.
+**Main result:** Figure 10B reports that the Hybrid model was preferred for 28 of 30 participants. The authors interpret this as evidence that people tend to combine visual and body-based cues when the two estimates are close, but allow the cues to compete when they differ substantially.
 
-**Figure to show:** Figure 10 (model comparison). Panel A compares each model’s BIC to the Hybrid model for each participant; Panel B counts how often each model was preferred. The Hybrid model is preferred for 28/30 participants, while Path Integration and Cue Combination each best fit one participant? [Correction: check exact panel counts in the paper figure before finalizing; text identifies participant 27 as Path Integration and participants 15 and 23 as Cue Combination, so the counts are 1, 2, and 27 if there are no other models selected.] 
+**Figure to show:** Figure 10 (model comparison). Panel A compares each model’s BIC with the Hybrid model’s BIC for each participant; Panel B counts how often each model was preferred. **Accuracy note:** the article’s prose also names three participants as exceptions (one Path Integration and two Cue Combination), which does not arithmetically match the 28/30 count in the Figure 10 caption. Preserve the paper’s explicit Figure 10B result on the slide and flag this small internal inconsistency for the mentor rather than guessing a corrected count. 
 
 ## B4. Starting point (Option 2 slides 4, 11, and 12)
 
