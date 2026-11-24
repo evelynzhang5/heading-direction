@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Plot the empirical heading-direction behavioral signature.
 
-Uses the authors' dataconf.csv. Each participant contributes equally to the
+Uses dataconf.csv. Each participant contributes equally to the
 group mean within each feedback-offset bin; error bars are across participants.
 """
 
