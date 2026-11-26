@@ -1,0 +1,14 @@
+Original task: rho = 0.690 informative glimpses, sigma = 28.0 deg
+hypothesis  rho  mean_omega  p_follow_small_offset(<30)  p_follow_large_offset(60-180)  mean_abs_error_fb_trials  switch_offset_deg(P_follow=0.5)
+     FIXED 0.25       0.713                       0.686                          0.109                    30.277                             42.0
+     FIXED 0.50       0.713                       0.677                          0.117                    29.266                             42.0
+     FIXED 0.75       0.713                       0.695                          0.132                    28.022                             42.0
+     FIXED 0.95       0.713                       0.687                          0.157                    26.546                             42.0
+  ADAPTIVE 0.25       0.431                       0.396                          0.057                    28.182                             12.0
+  ADAPTIVE 0.50       0.597                       0.564                          0.085                    28.996                             32.0
+  ADAPTIVE 0.75       0.752                       0.722                          0.138                    28.170                             46.0
+  ADAPTIVE 0.95       0.926                       0.873                          0.269                    27.899                             63.0
+FIXED: Friedman chi2 = 3.3, p = 0.34; median within-participant Spearman(rho, omega_fit) = 0.10
+ADAPTIVE: Friedman chi2 = 42.6, p = 3e-09; median within-participant Spearman(rho, omega_fit) = 1.00
+Saved figures/extension_reliability.png
+python extension_reliability.py  2035.21s user 11.93s system 1066% cpu 3:11.98 total

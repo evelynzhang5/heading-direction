@@ -1,0 +1,8 @@
+                     g     b  gamma  sigma_mem  ...   s_0  s_vel   s_f  omega
+Path Integration  1.00  0.99    NaN       0.96  ...   NaN    NaN   NaN    NaN
+Kalman Filter     0.95  0.87   0.79       0.86  ...  0.80   0.25   NaN    NaN
+Cue Combination   0.82  0.76   0.52       0.89  ...  0.78   0.83  0.85   0.78
+Hybrid            0.84  0.92   0.51       0.80  ...  0.84   0.93  0.80   0.83
+
+[4 rows x 9 columns]
+python parameter_recovery.py  1110.42s user 9.53s system 1021% cpu 1:49.62 total

@@ -1,0 +1,7 @@
+p(fit | sim):
+                  Path Integration  Kalman Filter  Cue Combination  Hybrid
+Path Integration              0.97           0.00             0.03    0.00
+Kalman Filter                 0.53           0.47             0.00    0.00
+Cue Combination               0.20           0.00             0.63    0.17
+Hybrid                        0.10           0.00             0.10    0.80
+python model_recovery.py  3598.14s user 19.35s system 1098% cpu 5:29.23 total
